@@ -11,5 +11,8 @@ class BlocksPage extends Page
 
     private static $class_description = 'A modular page composed of content blocks';
 
+    /**
+     * @deprecated 5.4.0 Will be renamed to cms_icon_class
+     */
     private static $icon_class = 'font-icon-p-alt';
 }
